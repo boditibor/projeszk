@@ -1,5 +1,5 @@
 ﻿# README
------feladatok lentebb  
+-----feladatok és help lentebb  
 |  
 |  
 ˇ  
@@ -29,15 +29,21 @@ muscle mass - a játékos életereje, ha nagyobb, akkor erősebbek a támadásai
   - *quest npc(interactable)* - feladat adó karakter
   - *bystander* - járókelő, passzív karakter  
 # KEZDETI FELADATOK  
-- main menü screen elkészítése, amin van legalább egy játékkezdő gomb és egy leaderboard gomb
+- main menü screen elkészítése, amin van legalább egy játékkezdő gomb és egy leaderboard gomb, a példában található skinnel és atlassal próbáld meg, majd megcsinálom hozzá az egyedi verziót  
 - online(ha nincs internet akkor helyi) leaderboard elkészítése ami mutatja a legjobb X játékos pontszámát (név + pontszám) van hozzá netes tárhely amit tudunk használni
 - a játékban található objektumok osztályainak csinálása
 - game screen elkezdése
-- játéklogika/objektum ütközés(box2d)
+- játéklogika/objektum ütközés(box2d)  
+- input processor osztály, ami működik a menüben, a leaderboardban és a játékban is  
+- assetek rajzolása  
 # HELP  
 libgdx keretrendszer:  
 [Tutorial 1](https://www.gamefromscratch.com/page/LibGDX-Tutorial-series.aspx)  
 [Official wiki és referencia](https://github.com/libgdx/libgdx/wiki)  
-[box2d physics](https://github.com/libgdx/libgdx/wiki/box2d#dynamic-bodies)  
+[box2d physics](https://github.com/libgdx/libgdx/wiki/box2d#dynamic-bodies)   
+input processing:  
+[Input processor referencia](https://libgdx.badlogicgames.com/ci/nightlies/docs/api/com/badlogic/gdx/InputProcessor.html)  
+menü screen/leaderboard példa:    
+[példa](https://stackoverflow.com/questions/32451921/how-to-create-libgdx-main-menu-screen)  
 ingyenes assetekre 1 példa:  
 https://itch.io/game-assets/free
